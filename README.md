@@ -17,6 +17,9 @@ Assignment for the Getting and Cleaning Data coursework
 14.     For each activity group of the selected subject
 15.         compute the column means and add it to tidy data set
 16.         Add the activity label and the subject code to the row
-17. Write the output to tidy_data.txt
+--.     End For
+--. End For
+17. Melt the data with Subject and Activity as id.vars
+18. Write the output to tidy_data.txt
 We are done!
 

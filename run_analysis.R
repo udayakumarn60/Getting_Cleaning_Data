@@ -121,7 +121,14 @@ for(i in 1: numSubjects) {
   }
 }
 
-## 15. Now we have the final version of tidy.data. Write to a file with
+
+
+## 15. Melt the data into a simpler format
+
+library(reshape)
+tidy.data <- melt(tidy.data, id=c("Subject","Activity"))
+
+## 16. Now we have the final version of tidy.data. Write to a file with
 ##     row.names = FALSE
 
 write.table(tidy.data, "tidy_data.txt", row.names = FALSE)
