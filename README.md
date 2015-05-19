@@ -16,9 +16,9 @@ Assignment for the Getting and Cleaning Data coursework
 13. For each subject (that we got from step 11) get the activity wise split
 14.     For each activity group of the selected subject
 15.         compute the column means and add it to tidy data set
-16.         Add the activity label and the subject code to the row
---.     End For
---. End For
+16.         Add the activity label and the subject code to the row  
+--.     End For  
+--. End For  
 17. Melt the data with Subject and Activity as id.vars
 18. Write the output to tidy_data.txt
 We are done!
